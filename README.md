@@ -1,0 +1,1 @@
+# example-gridsome-netlify-cms-widget-i18n
