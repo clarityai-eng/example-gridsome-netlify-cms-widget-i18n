@@ -1,14 +1,15 @@
 backend:
   name: github
-  repo: your_name/repo_name
+  repo: arturogalan/example-gridsome-netlify-cms-widget-i18n
+  branch: main
 
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: "content/media/uploads"
+public_folder: "/content/uploads"
 
 collections:
   - name: "posts"
     label: "Posts"
-    folder: "posts"
+    folder: "content/blog"
     create: true
     slug: "{{slug}}"
     fields:
@@ -16,3 +17,13 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "spanish-i18n-file"
+    label: "Spanish file"
+    extension: json
+    editor:
+      preview: false
+    create: true
+    folder: "content/i18n/es"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "i18n content", name: "es", widget: "i18n"}
