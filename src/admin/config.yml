@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: arturogalan/example-gridsome-netlify-cms-widget-i18n
+  repo: clarityai-eng/example-gridsome-netlify-cms-widget-i18n
   branch: main
 
 media_folder: "content/media/uploads"
