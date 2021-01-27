@@ -2,7 +2,7 @@ backend:
   name: github
   repo: clarityai-eng/example-gridsome-netlify-cms-widget-i18n
   branch: main
-
+publish_mode: editorial_workflow
 media_folder: "content/media/uploads"
 public_folder: "/content/uploads"
 
