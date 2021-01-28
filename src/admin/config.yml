@@ -17,13 +17,23 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "spanish-i18n-file"
-    label: "Spanish file"
+  - name: "english-i18n-file"
+    label: "English files"
+    folder: "content/i18n/en"
     extension: json
+    create: true
     editor:
       preview: false
-    create: true
-    folder: "content/i18n/es"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "i18n content", name: "es", widget: "i18n"}
+      - {label: "i18n content", name: "en", widget: "i18n", pattern: ['^(?!.*\.json$).*$','A JSON file name can have no spaces or special characters']}
+  - name: "spanish-i18n-file"
+    label: "Spanish file"
+    folder: "content/i18n/es"
+    extension: json
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "i18n content", name: "es", widget: "i18n", pattern: ['^(?!.*\.json$).*$','A JSON file name can have no spaces or special characters']}
