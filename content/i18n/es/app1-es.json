@@ -2,10 +2,10 @@
   "es": {
     "KEY": "value",
     "KEY_2": "value 2",
-    "KEY_AG": "I did it....my key",
     "KEY_3": "value 3",
-    "KEY_AG_2": "Second key with publish workflow",
-    "KEY_TEST_ALBERTO": "ola k ase"
+    "KEY_4": "value 4",
+    "KEY_5": "value 5",
+    "KEY_6": "value 6"
   },
   "title": "app1-es"
 }
