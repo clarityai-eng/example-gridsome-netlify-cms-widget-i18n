@@ -7,16 +7,6 @@ media_folder: "content/media/uploads"
 public_folder: "/content/uploads"
 
 collections:
-  - name: "posts"
-    label: "Posts"
-    folder: "content/blog"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Excerpt", name: "excerpt", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: "english-i18n-file"
     label: "English files"
     folder: "content/i18n/en"
